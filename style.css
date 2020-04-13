@@ -1,0 +1,28 @@
+body {
+	background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
+}
+.container {
+	overflow: hidden;
+	margin: 70px 70px;
+}
+.tab {
+	float: left;
+}
+.tab-2 {
+	margin-left: 50px;
+}
+.tab-2 input {
+	display: block;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+	height: 26px;
+	size: 20px;
+}
+tr {
+	transition: all .25s ease-in-out;
+}
+tr:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
